@@ -1,26 +1,26 @@
-<html>
 <head>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        .imgbox {
-            display: grid;
-            height: 100%;
-        }
-        .center-fit {
-            max-width: 100%;
-            max-height: 100vh;
-            margin: auto;
-        }
-    </style>
+<style>
+.container { 
+  height: 200px;
+  position: relative; 
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+</style>
 </head>
 <body>
-  <h2>INFORMATION SECURITY v1.2</h2>
-<div class="imgbox">
-    <img class="center-fit" src='https://github.com/wakeonwan/my-first-static-web-app/blob/main/src/phishing_robot.png?raw=true'>
+<div class="container">
+  <div class="center">
+    <img src='https://github.com/wakeonwan/my-first-static-web-app/blob/main/src/phishing_robot.png?raw=true'>
+  </div>
 </div>
+
 </body>
 </html>
-
